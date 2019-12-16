@@ -1,4 +1,4 @@
-
+from datetime import datetime
 
 
 class Crawler(object):
@@ -50,6 +50,7 @@ class Crawler(object):
         # TODO: parse the response and get dates, titles and relative url with etree
         contents = list()
         for rel_url in rel_urls:
+            pass
             # TODO: 1. concatenate relative url to full url
             #       2. for each url call self.crawl_content
             #          to crawl the content
