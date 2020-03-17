@@ -19,8 +19,6 @@ class Crawler():
         1. Note that you need to sleep 0.1 seconds for any request.
         2. It is welcome to modify TA's template.
         """
-        start_date = datetime.strptime(start_date, "%Y-%m-%d")
-        end_date = datetime.strptime(end_date, "%Y-%m-%d")
 
         if end_date < date_thres:
             end_date = date_thres
